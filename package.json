@@ -1,0 +1,16 @@
+{
+  "name": "notifications-page-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "nodemon --watch ./assets/styles/styles.scss --exec \"node-sass ./assets/styles/styles.scss ./assets/styles/styles.css -w --output-style compressed\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
