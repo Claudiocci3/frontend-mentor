@@ -87,13 +87,14 @@ p {
       margin-left: 5px; /* Ajusta el espacio a la izquierda del punto según sea necesario */
   }
   .mensaje {
-    width: 80%;
-    height: 100%;
+    width: 70%;
     margin-left: auto;
     border: 1px solid $color-grayish-blue;
     background-color: $color-very-light-grayish-blue;
     border-radius: 3%;
     margin-top: 5px;
+    font-weight: $font-weight-regular;
+    padding: 25px;
   }
   }
 .header {
