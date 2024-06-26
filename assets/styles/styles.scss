@@ -30,14 +30,14 @@ p {
 }
 .grid-container {
     display: grid;
-    grid-template-rows: repeat(4, 80px) 250px; /* Crea 8 filas iguales  60px 80px 70px*/
+    grid-template-rows: repeat(4, 80px) 220px 80px; /* Crea 8 filas iguales  60px 80px 70px*/
     gap: 10px; /* Espacio entre filas */
     height: 100%; /* Asegura que el contenedor ocupe el 100% del alto del body */
     justify-items: center;
   }
   
 .notification {
-    background-color: $color-light-grayish-blue-1;
+    background-color: $color-very-light-grayish-blue;
     font-weight: $font-weight-bold;
     font-size: 16px;
     display: flex;
@@ -119,6 +119,6 @@ p {
         border-radius: 20%;
     }
 }
-.notification:nth-child(5) {
-  background-color: $color-very-light-grayish-blue;
+.notification-blue {
+  background-color: $color-light-grayish-blue-1;
 }
